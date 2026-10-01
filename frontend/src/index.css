@@ -1,0 +1,9 @@
+@import "tailwindcss";
+@theme {
+  --font-sans: "IBM Plex Sans", ui-sans-serif, system-ui, sans-serif;
+  --color-ink: #16204a;
+  --color-mist: #eef1f6;
+  --color-ontrack: #0f9d8a;
+  --color-warn: #d9822b;
+}
+body { @apply bg-mist text-ink font-sans; }
